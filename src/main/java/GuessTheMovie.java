@@ -26,7 +26,6 @@ public class GuessTheMovie {
         Random generator = new Random();
         int randomInteger = generator.nextInt(numOfMovies);  // 0 ... (numOfMovies - 1)
         String randomMovie = moviesList.get(randomInteger);
-        System.out.println("answer: " + randomMovie);////////////
 
         // Shows how many letters the movie title is made up of.
         Game game = new Game(randomMovie);
